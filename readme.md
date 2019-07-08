@@ -1,6 +1,5 @@
 # go-for-apache-dubbo-benchmark
 
-
 ## 使用方式
 
 ### 调用方式
@@ -15,7 +14,7 @@ p|测试协议|dubbo or jsonrpc
 
 #### 1.客户端和服务端在同一台机器上
 
-sh start.sh -c 10 -n 100 -p dubbo
+./start.sh -c 10 -n 100 -p dubbo
 
 #### 2.客户端和服务端在不同一台机器上，包括多个服务端在不同机器上
 
@@ -23,15 +22,13 @@ server:
 
 1)需要配置server.yml参数
 
-2)执行脚本 sh start_server.sh  -p dubbo
+2)执行脚本 ./start_server.sh  -p dubbo
 
 client: 
 
 1)需要配置client.yml参数
 
-2)执行脚本 sh start_client.sh  -c 10 -n 100
-
-
+2)执行脚本 ./start_client.sh  -c 10 -n 100
 
 ### 输出报表含义
 
@@ -44,7 +41,6 @@ client:
 `min`: 单个请求的最小耗时
 
 `p99`: 99%的请求单个耗时
-
 
 例子：
 
