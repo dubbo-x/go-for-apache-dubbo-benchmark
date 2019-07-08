@@ -22,13 +22,13 @@ server:
 
 1)需要配置server.yml参数
 
-2)执行脚本 ./start_server.sh  -p dubbo
+2)执行脚本 ./start_server.sh -p dubbo
 
 client: 
 
 1)需要配置client.yml参数
 
-2)执行脚本 ./start_client.sh  -c 10 -n 100
+2)执行脚本 ./start_client.sh -c 10 -n 100
 
 ### 输出报表含义
 
